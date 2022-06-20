@@ -1,4 +1,5 @@
 import os
 hello = "hello world"
-print(hello)
-print("How are you")
+report = open(r"C:\Users\SWAPAGRA\Desktop\hello.txt",'w')
+report.write(hello)
+report.close()
